@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Sparkles, Calendar, Star, Users } from 'lucide-react';
+import hero from "../assets/hero.png"
 
 const Hero = () => {
   return (
@@ -75,7 +76,7 @@ const Hero = () => {
           >
             <div className="relative rounded-t-[100px] rounded-b-[30px] overflow-hidden border-8 border-white dark:border-gray-800 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1594922113337-3bdcc62e3427?auto=format&fit=crop&q=80&w=1200" 
+                src={hero} 
                 alt="Beautiful Indian Bride" 
                 className="w-full h-[600px] object-cover object-center"
               />

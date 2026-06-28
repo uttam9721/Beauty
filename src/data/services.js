@@ -4,7 +4,7 @@ export const servicesData = [
     title: "Bridal Makeup",
     description: "Look your absolute best on your special day with our premium bridal makeup packages.",
     price: "₹15,000",
-    image: "https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/14833215/pexels-photo-14833215.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Makeup"
   },
   {

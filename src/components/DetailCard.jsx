@@ -47,7 +47,7 @@ const packages = [
       "Precision Haircut",
       "Styling & Aftercare Guide"
     ],
-    image: "https://images.unsplash.com/photo-1583900985737-6d0422550f6a?auto=format&fit=crop&q=80&w=1000"
+    image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=1000"
   }
 ];
 

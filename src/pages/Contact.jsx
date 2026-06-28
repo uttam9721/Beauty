@@ -59,8 +59,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-1">Phone Number</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    +91 7837362719<br />
-                    +91 172-5551234
+                    +91 7837362719
                   </p>
                 </div>
               </div>
