@@ -34,7 +34,7 @@ function App() {
   const { isDarkMode } = useAppContext();
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${isDarkMode ? 'dark bg-black text-white' : 'bg-background text-text-main'}`}>
+    <div className={`min-h-screen overflow-x-hidden transition-colors duration-300 ${isDarkMode ? 'dark bg-black text-white' : 'bg-background text-text-main'}`}>
       <ScrollToTop />
       <Navbar />
       
