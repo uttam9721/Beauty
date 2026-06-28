@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Sparkles, Calendar, Star, Users } from 'lucide-react';
-import hero from "../assets/hero.png"
+import hero from "../assets/image.png";
 
 const Hero = () => {
   return (
@@ -72,13 +72,13 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
-            className="relative hidden lg:block"
+            className="relative w-full max-w-md mx-auto lg:max-w-none"
           >
             <div className="relative rounded-t-[100px] rounded-b-[30px] overflow-hidden border-8 border-white dark:border-gray-800 shadow-2xl">
               <img 
                 src={hero} 
                 alt="Beautiful Indian Bride" 
-                className="w-full h-[600px] object-cover object-center"
+                className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
             </div>
@@ -87,7 +87,7 @@ const Hero = () => {
             <motion.div 
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
-              className="absolute -bottom-6 -left-6 bg-white dark:bg-gray-800 p-4 rounded-2xl shadow-xl flex items-center space-x-4 border border-gray-100 dark:border-gray-700"
+              className="absolute -bottom-4 -left-2 md:-bottom-6 md:-left-6 bg-white dark:bg-gray-800 p-4 rounded-2xl shadow-xl flex items-center space-x-4 border border-gray-100 dark:border-gray-700 z-10"
             >
               <div className="bg-yellow-100 dark:bg-yellow-900/30 p-3 rounded-full">
                 <Star className="text-yellow-500" fill="currentColor" size={24} />
