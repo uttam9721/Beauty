@@ -10,7 +10,7 @@ export const testimonialsData = [
     id: 2,
     name: "Anita Desai",
     rating: 5,
-    text: "I regularly visit Jeenat Beauty Studio for my facials. The ambiance is so relaxing and the results are always visible immediately.",
+    text: "I regularly visit Zeenat Beauty for my facials. The ambiance is so relaxing and the results are always visible immediately.",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150"
   },
   {

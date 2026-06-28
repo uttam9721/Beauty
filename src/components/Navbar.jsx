@@ -27,10 +27,10 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'glass py-3 shadow-md' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        
+
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold tracking-tight text-primary dark:text-secondary">
-          Jeenat Studio
+          Zeenat Beauty
         </Link>
 
         {/* Desktop Navigation */}
@@ -44,7 +44,7 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          
+
           <Link to="/contact" className="bg-primary hover:bg-primary-hover text-white px-6 py-2 rounded-full font-medium transition-all transform hover:scale-105 shadow-md">
             Book Appointment
           </Link>

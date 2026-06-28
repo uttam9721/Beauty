@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 pt-20 pb-10 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          
+
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="text-3xl font-bold text-white tracking-tight">
-              Jeenat <span className="text-primary">Studio</span>
+              Zeenat <span className="text-primary">Beauty</span>
             </Link>
             <p className="text-gray-400 leading-relaxed">
               Enhancing your natural beauty with premium treatments and professional care. Your journey to radiance starts here.
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>© 2026 Jeenat Studio. All rights reserved.</p>
+          <p>© 2026 Zeenat Beauty. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="#" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link to="#" className="hover:text-white transition-colors">Terms of Service</Link>

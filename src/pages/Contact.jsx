@@ -101,7 +101,7 @@ const Contact = () => {
                 allowFullScreen="" 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Jeenat Beauty Studio Location"
+                title="Zeenat Beauty Location"
                 className="absolute inset-0"
               ></iframe>
             </div>
