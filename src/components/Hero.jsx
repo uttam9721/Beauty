@@ -57,8 +57,8 @@ const Hero = () => {
                 <p className="text-sm text-gray-500 dark:text-gray-400">Happy Clients</p>
               </div>
               <div>
-                <h4 className="text-3xl font-bold text-gray-900 dark:text-white">1 Months</h4>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Years Exp.</p>
+                <h4 className="text-3xl font-bold text-gray-900 dark:text-white">1+</h4>
+                <p className="text-sm text-gray-500 dark:text-gray-400">months Exp.</p>
               </div>
               <div>
                 <h4 className="text-3xl font-bold text-gray-900 dark:text-white">25+</h4>
